@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic resume</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+
+<h1>DYNAMIC RESUME BUILDER</h1>
+
+</header>
+
+<div class="main-div">
+
+<form class="resume" method="post">
+
+
+
+
+
+<fieldset>
+    <legend>PERSONAL INFORMATION</legend>
+    <label for="name">Name:</label>
+    <input type="text" id="name" required>
+    
+    <br><br>
+
+    <label for="fname">Father Name:</label>
+    <input type="text" id="fname" required>
+    
+    <br><br>
+
+    <label for="cnic">CNIC:</label>
+    <input type="number" id="cnic" required placeholder="Enter CNIC without dashes">
+
+<br><br>
+
+<label for="cell_no">Cell no:</label>
+<input type="number" id="phnumber" required placeholder="Enter phone number without dashes">
+
+    <label for="email">Email:</label>
+    <input type="email" id="mail" required>
+</fieldset>
+
+<fieldset>
+
+<legend>EDUCATIONAL DETAILS</legend>
+
+<label for="education">Education</label>
+
+<textarea name="education" id="education" rows="10" cols="10" placeholder="Please enter your educational details" required></textarea>
+
+</fieldset>
+
+<fieldset>
+    <legend>WORK EXPERIANCE</legend>
+    <label for="experience">Work Experiance</label>
+    <textarea name="experience" id="experiance" rows="10" cols="10" placeholder="Plese enter your experiance details" required></textarea>
+</fieldset>
+
+
+<fieldset>
+    <legend> SKILLS</legend>
+    <label for="skills">Skills</label>
+    <textarea name="skills" id="skills" placeholder="Please mentioned your skills" rows="10" cols="10" required></textarea>
+</fieldset>
+
+
+<fieldset>
+
+    <legend>About Us</legend>
+
+<textarea name="about" id="about" placeholder="Write somthing about your self" rows="10" cols="10"></textarea>
+
+</fieldset>
+
+<button type="submit" class="button" accept="" alt="img">submit</button>
+
+</form>
+
+</div>
+
+<div class="resumeview">
+
+
+</div>
+
+<script src="main.js"></script>
+
+</body>
+
+
+</html>
